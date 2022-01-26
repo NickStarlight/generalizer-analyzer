@@ -1,0 +1,43 @@
+{
+  "name": "generalizer-analyzer",
+  "version": "1.0.0",
+  "description": "Parser for raw genetic file from consumer grade DNA vendors",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "test": "jest --coverage",
+    "build": "tsc -p tsconfig-build.json"
+  },
+  "keywords": [
+    "genera",
+    "raw",
+    "genetic",
+    "file",
+    "snp"
+  ],
+  "author": "Nick Scarlet Nox LeBlanc",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "@types/papaparse": "^5.3.1",
+    "jest": "^27.4.7",
+    "ts-jest": "^27.1.2",
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.5.4"
+  },
+  "ts-standard": {
+    "project": "./tsconfig.json"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/dist/",
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "papaparse": "^5.3.1"
+  }
+}
