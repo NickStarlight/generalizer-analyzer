@@ -1,7 +1,8 @@
 # Generalizer
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/NickStarlight/generalizer-analyzer.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/NickStarlight/generalizer-analyzer/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/NickStarlight/generalizer-analyzer.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/NickStarlight/generalizer-analyzer/context:javascript)
-![Tests](https://github.com/Nickstarlight/generalizer-analyzer/actions/workflows/tests.yml/badge.svg)
-[![codecov](https://codecov.io/gh/NickStarlight/generalizer-analyzer/branch/main/graph/badge.svg?token=3OIPZHYHY4)](https://codecov.io/gh/NickStarlight/generalizer-analyzer)
+[![codecov](https://codecov.io/gh/NickStarlight/generalizer-analyzer/branch/main/graph/badge.svg?token=6EZ912V460)](https://codecov.io/gh/NickStarlight/generalizer-analyzer)
+[![Tests and code coverage analysis](https://github.com/NickStarlight/generalizer-analyzer/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/NickStarlight/generalizer-analyzer/actions/workflows/tests.yml)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 ![Typescript](https://img.shields.io/npm/types/typescript)
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
