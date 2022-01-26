@@ -8,7 +8,7 @@
  * @file Declares common functions used to parse and normalize SNP information
  * and their nucleobases
  */
-import { NucleobaseCombination, SNP, SNPDB } from '../db'
+import { NucleobaseCombination, SNP, SNPDB } from '../db/index'
 
 /**
  * Enumerates the possible nucleobase combinations.
@@ -80,12 +80,12 @@ function nucleobaseTextToBinary (combination: string): number {
 }
 
 /**
-   * Converts a binary nucleobase combination to the respective textual
-   * representation.
-   *
-   * @param {number} combination A binary nucleobase combination. Ex: 10, 16, 3
-   * @returns {number|null} The textual representation, null if impossible combination
-   */
+ * Converts a binary nucleobase combination to the respective textual
+ * representation.
+ *
+ * @param {number} combination A binary nucleobase combination. Ex: 10, 16, 3
+ * @returns {number|null} The textual representation, null if impossible combination
+ */
 function nucleobaseBinaryToText (combination: number): string|null {
   /** Those are all the valid binary representations possible */
   if (![1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 16].includes(combination)) {
