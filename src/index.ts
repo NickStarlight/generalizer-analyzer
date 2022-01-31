@@ -39,6 +39,7 @@ export {
   SNPDB,
 
   GeneticAnalysisVendorEnum,
+  SNPAnalysisResult,
 
   rawAnalysis
 }
