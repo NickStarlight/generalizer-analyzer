@@ -9,7 +9,7 @@
  * that are used by `Generalizer` on a per-vendor basis.
  */
 import { ParseConfig, ParseResult } from 'papaparse';
-import { GeneticAnalysisVendorEnum } from '../vendor';
+import { GeneticAnalysisVendorEnum } from '../vendor/index.js';
 /**
  * Defines a common structure for all parsed raw genetic files.
  */

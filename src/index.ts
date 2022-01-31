@@ -8,10 +8,10 @@
  * @file Main file for `Generalizer` containing feature functions
  * for analyzing raw genetic files.
  */
-import { SNPDB } from './db'
-import { SNPAnalysisResult, snpLookup } from './snp'
-import { NormalizedSNPData, parseRawGeneticFileText } from './parser'
-import { GeneticAnalysisVendorEnum } from './vendor'
+import { SNPDB } from './db/index.js'
+import { SNPAnalysisResult, snpLookup } from './snp/index.js'
+import { NormalizedSNPData, parseRawGeneticFileText } from './parser/index.js'
+import { GeneticAnalysisVendorEnum } from './vendor/index.js'
 
 /**
  * Analyze a raw genetic file string, returning a list of SNP's available

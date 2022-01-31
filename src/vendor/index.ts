@@ -9,8 +9,8 @@
  * functions.
  */
 import { ParseResult } from 'papaparse'
-import { NormalizedSNPData } from '../parser'
-import { nucleobaseTextToBinary } from '../snp'
+import { NormalizedSNPData } from '../parser/index.js'
+import { nucleobaseTextToBinary } from '../snp/index.js'
 
 /**
  * Defines the regex mask for validating SNP's RSID.

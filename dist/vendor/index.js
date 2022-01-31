@@ -1,4 +1,4 @@
-import { nucleobaseTextToBinary } from '../snp';
+import { nucleobaseTextToBinary } from '../snp/index.js';
 /**
  * Defines the regex mask for validating SNP's RSID.
  *

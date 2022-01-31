@@ -9,7 +9,7 @@
  * functions.
  */
 import { ParseResult } from 'papaparse';
-import { NormalizedSNPData } from '../parser';
+import { NormalizedSNPData } from '../parser/index.js';
 /**
  * Defines the supported vendors that
  * `Generalizer` can work with.

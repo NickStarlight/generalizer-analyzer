@@ -8,7 +8,7 @@
  * @file Declares common functions used to parse and normalize SNP information
  * and their nucleobases
  */
-import { NucleobaseCombination, SNP, SNPDB } from '../db/index'
+import { NucleobaseCombination, SNP, SNPDB } from '../db/index.js'
 
 /**
  * Enumerates the possible nucleobase combinations.

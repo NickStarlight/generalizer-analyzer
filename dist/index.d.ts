@@ -8,9 +8,9 @@
  * @file Main file for `Generalizer` containing feature functions
  * for analyzing raw genetic files.
  */
-import { SNPDB } from './db';
-import { SNPAnalysisResult } from './snp';
-import { GeneticAnalysisVendorEnum } from './vendor';
+import { SNPDB } from './db/index.js';
+import { SNPAnalysisResult } from './snp/index.js';
+import { GeneticAnalysisVendorEnum } from './vendor/index.js';
 /**
  * Analyze a raw genetic file string, returning a list of SNP's available
  * in the `Generalizer` database with the inputted raw data results.
@@ -21,4 +21,4 @@ import { GeneticAnalysisVendorEnum } from './vendor';
  * @returns {Promise<SNPAnalysisResult[]>} A promise that resolves to an array containing the parsed raw file contents
  */
 declare function rawAnalysis(rawData: string, vendor: GeneticAnalysisVendorEnum): Promise<SNPAnalysisResult[]>;
-export { SNPDB, GeneticAnalysisVendorEnum, rawAnalysis };
+export { SNPDB, GeneticAnalysisVendorEnum, SNPAnalysisResult, rawAnalysis };

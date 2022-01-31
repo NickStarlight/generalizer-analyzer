@@ -9,8 +9,8 @@
  * that are used by `Generalizer` on a per-vendor basis.
  */
 import { parse } from 'papaparse';
-import { InvalidVendorError } from '../exception';
-import { GeneticAnalysisVendorEnum, normalizeGeneraData } from '../vendor';
+import { InvalidVendorError } from '../exception.js';
+import { GeneticAnalysisVendorEnum, normalizeGeneraData } from '../vendor/index.js';
 /**
  * Parses a raw genetic file.
  *
